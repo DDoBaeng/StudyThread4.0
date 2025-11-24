@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D7BD412F-E79F-48F4-A871-39976C44C6F7}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>StudyThread4._0</RootNamespace>
     <AssemblyName>StudyThread4.0</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

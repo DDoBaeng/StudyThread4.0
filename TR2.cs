@@ -74,18 +74,18 @@ namespace StudyThread4._0
                 int randValue = rand.Next(1000, 3000);
 
 
-                FormWork f = new FormWork();
-                f.Show();
+                //FormWork f = new FormWork();
+                //f.Show();
 
-                f.BeginInvoke(new Action(() =>
-                {
-                    f.taskID = taskId;
-                    f.closeTime = randValue;
-                    f.BackColor = GetRandomRGBColor();
-                }));
+                //f.BeginInvoke(new Action(() =>
+                //{
+                //    f.taskID = taskId;
+                //    f.closeTime = randValue;
+                //    f.BackColor = GetRandomRGBColor();
+                //}));
                 
 
-                //Thread.Sleep(randValue); // 1초에서 3초 사이 대기
+                Thread.Sleep(randValue); // 1초에서 3초 사이 대기
                 //f.Close();
 
                 Console.WriteLine($"\n[TID:{threadId}] Task {taskId} <<< 핵심 작업 완료.");
